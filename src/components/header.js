@@ -22,6 +22,7 @@ const Header = () =>{
             </div>
             
             <h3 className={headerStyle.title}>{data.site.siteMetadata.title}</h3>
+            <hr/>
             <nav>
                 <ul className={headerStyle.navList}>
                     <li><Link className={headerStyle.navItem} activeClassName={headerStyle.navItemActive} to="/">home</Link></li> 
@@ -33,6 +34,7 @@ const Header = () =>{
                     <li><Link className={headerStyle.navItem} activeClassName={headerStyle.navItemActive} to="/contact">contact</Link></li>
                 </ul>
             </nav>
+            <hr/>
         </header>
     )
 }

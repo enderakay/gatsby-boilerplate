@@ -17,7 +17,7 @@ const ContactPage = () =>{
             <Layout>
             <h2>Title</h2>
             <p>Contact Details</p>
-            <p>Go to my twitter <a href="https://twitter.com/ender_akay" target="_blank">ender_akay</a></p>
+            <p>Go to my twitter <a href="https://twitter.com/ender_akay" target="_blank" rel="noopener noreferrer">ender_akay</a></p>
             </Layout>
         </div>
     )

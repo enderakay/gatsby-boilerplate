@@ -13,7 +13,7 @@ const Footer = () => {
     }
   `)
     return(
-        <footer>
+        <footer className={footerStyle.footer}>
             <p className={footerStyle.line}>Created by <span className={footerStyle.me}>{data.site.siteMetadata.author}</span>, Copyright &copy; 2019</p>
         </footer>
     )    
