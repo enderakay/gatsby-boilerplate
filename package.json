@@ -20,7 +20,7 @@
     "gatsby-remark-relative-images": "^0.2.3",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-remark": "^2.6.26",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.10.0",
     "react-dom": "^16.10.0"
   },
